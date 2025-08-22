@@ -15,7 +15,7 @@ logging.basicConfig(
 
 broker = "BROKER_IP"
 port = 1883
-topics = ["TOPIC"]
+topics = ["media"]
 client = mqtt.Client(protocol=mqtt.MQTTv5, callback_api_version=mqtt.CallbackAPIVersion.VERSION2) 
 
 def handle_connect(client, userdata, flags, reason_code, properties=None):
