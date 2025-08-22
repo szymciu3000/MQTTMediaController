@@ -7,6 +7,6 @@ You need to send MQTT messages with the topic "media" and payloads:
 - "SESSION_UP"/"SESSION_DOWN" for changing windows media sessions.
   
 Change username/password for your own credentials and BROKER_IP for your MQTT broker's IP.
-Designed to be used with android apps KWGT and HTTP Request Shortcuts.
+Designed to be used with android apps [KWGT](https://play.google.com/store/apps/details?id=org.kustom.widget) and [HTTP Request Shortcuts](https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts).
 KWGT Widget Template is in the directory, as well as the shortcuts.zip file ready to be imported into HTTP Request Shortcuts.
 You need to change the rpi_ip, rpi_mqtt_user and rpi_mqtt_password in the HTTP Request Shortcuts app to your own. 
